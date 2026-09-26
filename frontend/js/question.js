@@ -61,7 +61,7 @@ async function guardarProgreso(nivel, puntuacion, completado = true) {
         const serverUrl =
             window.location.hostname === "localhost"
                 ? "http://localhost:3000"
-                : "https://loxi.onrender.com";
+                : "https://loxi-9ozz.onrender.com";
 
         const datosAEnviar = {
             usuario_id: usuarioId,

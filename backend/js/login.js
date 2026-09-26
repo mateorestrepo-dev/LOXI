@@ -44,7 +44,7 @@ export async function loginUsuario(nombre, correo, contrasena) {
 
     const serverUrl = typeof window !== 'undefined' && window.location.hostname === 'localhost'
       ? 'http://localhost:3000'
-      : 'https://loxi.onrender.com';
+      : 'https://loxi-9ozz.onrender.com';
 
     const datosAEnviar = {
       usuario_id: usuario.id,

@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function obtenerEjercicios(nivel) {
     try {
-        const res = await fetch("https://loxi.onrender.com/api/ejercicios"); 
+        const res = await fetch("https://loxi-9ozz.onrender.com/api/ejercicios"); 
         if (!res.ok) throw new Error("Error al obtener ejercicios");
 
         const data = await res.json();

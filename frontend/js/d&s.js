@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
             const res = await fetch(
-                "https://loxi.onrender.com/api/comentarios",
+                "https://loxi-9ozz.onrender.com/api/comentarios",
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
